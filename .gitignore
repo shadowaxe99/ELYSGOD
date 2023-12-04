@@ -1,0 +1,67 @@
+# .gitignore
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+*.swp
+*.swo
+*.swn
+.idea/
+.vscode/
+
+# Ignore build files
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore package files
+node_modules/
+*.pyc
+*.pyo
+*.rbc
+*.sass-cache
+*.class
+*.suo
+*.ntvs*
+*.njsproj
+*.log
+*.sln
+*.xproj
+*.user
+*.userosscache
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Ignore database files
+*.db
+*.sql
+*.sqlite
+
+# Ignore cache files
+*.cache
+*.egg-info/
+dist/
+build/
+sdist/
+develop-eggs/
+eggs/
+parts/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignore virtual environment
+venv/
